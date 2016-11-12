@@ -34,6 +34,24 @@
 
 # Now that you have your workspace set up, what do you want to try using Git for?
 - eventually, want to share code with son for sw coding
-- also, working on code material for systemverilog/UVM lectures
+- also, will be working on code material for training lectures
 
 
+#
+# Covered commands:
+#
+git help <command>                  # shows help for <command>
+git clone <repo>                    # get a local copy of a repository
+  # global settings (modifies ~/.gitconfig)
+git config --global core.editor "'/usr/bin/vim'"  # set vim as default editor
+git config --global push.default upstream         # ?
+git config --global merge.conflictstyle diff3     # do theirs/orig/mine type of merge conflict
+
+git checkout <id>|<branch>          # switch to id or branch
+git log                             # commit history
+git log --stat                      #   - more info
+git add <file>                      # add <file> to staging area (ready for commit)
+git status                          # status of the working dir
+git diff                            # diff of modified file in working dir
+git diff id1 id2                    # diff 2 id's in working dir
+git diff --staged id1 id2           # diff id's in staging area
