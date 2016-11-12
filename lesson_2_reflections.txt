@@ -31,3 +31,24 @@
 - pro: majority of merges can be automatically done. When no conflicts.
 - con: auto merges can have functional dependencies without having line conflicts; when
        this type of merge happens, it can appear to be ok, but may have bug side-effects.
+
+
+#
+# Covered commands:
+#
+git add <file>                      # add <file> to staging area (ready for commit)
+git commit                          # commit file(s) in staging area to repository
+git status                          # status of the working dir. Shows staged too
+git diff                            # diff modified files in working dir
+git diff [id]                       # diff files in working dir with id 
+git diff --staged id1 id2           # diff id's in staging area to repo
+git diff --staged                   # diff modified files in staging area with repo
+git show id                         # like diff, but only changes for particular id
+git reset [file...]                 # undo 'git add'; modified files go back to working dir
+git reset --hard                    # undo changes. Careful, because deletes changes. Permanent
+git checkout master                 # switch to branch called master
+git log --graph --oneline <branch1> <branch2> # pretty text view of commit history (no detail)
+git branch                          # list available branches (current has '*')
+git branch -d branch                # delete branch name
+git checkout -b <new_branch>        # create new branch AND switch to that branch 
+git merge <branch>                  # merge branch into current branch (can specify current too)
