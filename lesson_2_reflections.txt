@@ -1,0 +1,9 @@
+# What happens when you initialize a repository? Why do you need to do it?
+- creates a '.git' file with metadata
+- this is a way git knows what to track
+
+# How is the staging area different from the working directory and the repository? 
+# What value do you think it offers?
+- like a local repository that holds transition changes?
+- allows you to collect logical changes.
+
