@@ -7,3 +7,7 @@
 - like a local repository that holds transition changes?
 - allows you to collect logical changes.
 
+# How can you use the staging area to make sure you have one commit per logical change?
+- only stage files belonging to a logical change.
+
+
