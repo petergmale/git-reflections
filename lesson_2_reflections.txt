@@ -18,3 +18,16 @@
 
 # How do the diagrams help you visualize the branch structure?
 - by following the diagrams, you can visualize the reachability and path of a branch commit
+
+# What is the result of merging two branches together? 
+# Why do we represent it in the diagram the way we do?
+- the specified branch is merged (combined) with the current branch. The common commit and the 2
+  branch commits are used to determine the final merging.
+- the branch is shown 'split' from the 'master' as other changes are being added. The 'merge'
+  shows the 2 branches joined together, as this represents the notion that the changes have
+  been combined and their historys are now 'linked'.
+
+# What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+- pro: majority of merges can be automatically done. When no conflicts.
+- con: auto merges can have functional dependencies without having line conflicts; when
+       this type of merge happens, it can appear to be ok, but may have bug side-effects.
