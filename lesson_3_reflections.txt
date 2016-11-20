@@ -26,3 +26,12 @@
 - would need another vcs most likely. If not, then some cloud-based infrastructure.
 - Git/GitHub would be much easier as these tools are designed for collaboration
 
+# When would you want to make changes in a separate branch rather than directly in master? 
+# What benefits does each approach have?
+- seems beneficial for the master branch to be 'release' worthy. Starting a feature or bug
+  fix in a branch allows the freedom to work worry free that you are not affecting the master.
+- separate branches can help segregate work into logical commits
+- creating a branch seems to allow for better collaboration, as a new feature or bug fix can be
+  shared with others from that branch.
+- there is a complexity price to pay for separate branches; maintaining and merging differences
+  with a remote repo
