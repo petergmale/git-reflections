@@ -20,3 +20,9 @@
 # What is the benefit of having a copy of the last known state of the remote stored locally?
 - you can review all changes of the remote locally
 - you can perform the merge later and review if your master has any dependencies on remote.
+
+# How would you collaborate without using Git or GitHub? What would be easier, and what would 
+# be harder?
+- would need another vcs most likely. If not, then some cloud-based infrastructure.
+- Git/GitHub would be much easier as these tools are designed for collaboration
+
